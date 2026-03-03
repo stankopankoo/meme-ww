@@ -1,0 +1,229 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="WW3 is a futuristic meme coin built for momentum, culture, and community energy." />
+    <title>WW3 — Futuristic Meme Coin</title>
+    <link rel="icon" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>☢</text></svg>" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+    <canvas class="matrix" id="matrix" aria-hidden="true"></canvas>
+    <div class="promo-bar" role="status" aria-live="polite">
+      <span class="promo-pill">NEW</span>
+      <span class="promo-alert">!!!</span>
+      <span>Cashback ON — buy WW3 and get rewards back.</span>
+      <span class="promo-alert">!!!</span>
+    </div>
+    <header class="site-header" id="top">
+      <nav class="nav">
+        <a class="logo" href="#top">
+          <span class="logo-mark">WW3</span>
+          <span class="logo-tag">meme protocol</span>
+        </a>
+        <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#manifest">Manifest</a>
+          <a href="#token">Tokenomics</a>
+          <a href="#roadmap">Roadmap</a>
+          <a href="#faq">FAQ</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-bg">
+          <div class="orb orb-a"></div>
+          <div class="orb orb-b"></div>
+          <div class="grid"></div>
+        </div>
+        <div class="hero-content" data-reveal>
+          <p class="eyebrow">HYPER • FUTURISTIC • MEME OFFENSIVE</p>
+          <h1>WW3 is the meme coin built for speed, attention, and dominance in the feed.</h1>
+          <p class="lead">
+            Pure culture play. Sharp visuals, loud memes, relentless community push.
+            If you want a coin that feels like the future, this is WW3.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#token">Get the token</a>
+            <a class="btn btn-ghost" href="#" aria-disabled="true">pump.fun (soon)</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <span class="stat-label">Launch</span>
+              <strong class="stat-value">TBD</strong>
+            </div>
+            <div>
+              <span class="stat-label">Chain</span>
+              <strong class="stat-value">Solana</strong>
+            </div>
+            <div>
+              <span class="stat-label">Community</span>
+              <strong class="stat-value">∞</strong>
+            </div>
+          </div>
+        </div>
+        <div class="hero-panel" data-reveal>
+          <div class="panel-top">
+            <span>Signal</span>
+            <span class="status">ONLINE</span>
+          </div>
+          <div class="panel-body">
+            <h3>WW3: AHEAD OF THE FEED</h3>
+            <p>
+              Micro‑narrative. Macro‑meme. Built for momentum, not meetings.
+            </p>
+            <div class="panel-grid">
+              <div>
+                <span>Max Supply</span>
+                <strong>TBD</strong>
+              </div>
+              <div>
+                <span>Contract</span>
+                <strong id="contract">TBD</strong>
+              </div>
+              <div>
+                <span>LP</span>
+                <strong>TBD</strong>
+              </div>
+            </div>
+            <button class="btn btn-small" id="copy-contract" type="button">Copy contract</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-hidden="true">
+        <div class="ticker-track">
+          <span>WW3</span>
+          <span>MEME FUTURE</span>
+          <span>NO LIMITS</span>
+          <span>COMMUNITY PUSH</span>
+          <span>SCROLL FAST</span>
+          <span>WW3</span>
+          <span>MEME FUTURE</span>
+          <span>NO LIMITS</span>
+          <span>COMMUNITY PUSH</span>
+          <span>SCROLL FAST</span>
+        </div>
+      </section>
+
+      <section id="manifest" class="section" data-reveal>
+        <div class="section-head">
+          <h2>Manifest</h2>
+          <p>
+            WW3 is a meme coin with a sharp identity. A digital movement for people who live online
+            and move fast.
+          </p>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <h3>Future‑first design</h3>
+            <p>Minimal, neon, brutal. WW3 is a visual strike, not a slide deck.</p>
+          </article>
+          <article class="card">
+            <h3>Community amplification</h3>
+            <p>Memes ship daily. The community leads, the story spreads.</p>
+          </article>
+          <article class="card">
+            <h3>High‑velocity culture</h3>
+            <p>Fast decisions, transparent moves, momentum over paperwork.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="token" class="section" data-reveal>
+        <div class="section-head">
+          <h2>Tokenomics</h2>
+          <p>Numbers drop after the contract is finalized. Clear, simple, and built for visibility.</p>
+        </div>
+        <div class="token-grid">
+          <div class="token-card">
+            <span>Total supply</span>
+            <strong>TBD</strong>
+          </div>
+          <div class="token-card">
+            <span>Liquidity</span>
+            <strong>TBD</strong>
+          </div>
+          <div class="token-card">
+            <span>Contract</span>
+            <strong>TBD</strong>
+          </div>
+        </div>
+      </section>
+
+      <section id="roadmap" class="section" data-reveal>
+        <div class="section-head">
+          <h2>Roadmap</h2>
+          <p>Short, aggressive, execution‑first.</p>
+        </div>
+        <div class="roadmap">
+          <div class="road-step">
+            <span class="phase">Phase 1</span>
+            <h3>Launch + community</h3>
+            <p>Contract deployment, pump.fun launch, community ignition.</p>
+          </div>
+          <div class="road-step">
+            <span class="phase">Phase 2</span>
+            <h3>Memetics + collabs</h3>
+            <p>Content engine, community campaigns, meme raids.</p>
+          </div>
+          <div class="road-step">
+            <span class="phase">Phase 3</span>
+            <h3>Ecosystem</h3>
+            <p>Tools, merch, ecosystem extensions.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section" data-reveal>
+        <div class="section-head">
+          <h2>FAQ</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>What is WW3?</summary>
+            <p>A futuristic meme coin powered by community momentum and a loud visual identity.</p>
+          </details>
+          <details>
+            <summary>Why should I care?</summary>
+            <p>Because attention is the battlefield, and WW3 is built to take it.</p>
+          </details>
+          <details>
+            <summary>When is launch?</summary>
+            <p>The date will drop once the contract is ready and socials go live.</p>
+          </details>
+          <details>
+            <summary>Where can I find socials?</summary>
+            <p>Links will appear in the footer once live. Stay close.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" data-reveal>
+      <div>
+        <strong>WW3</strong>
+        <p>Meme coin built for momentum.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#" aria-disabled="true">X (soon)</a>
+        <a href="#" aria-disabled="true">Telegram (soon)</a>
+        <a href="#top">Back to top</a>
+      </div>
+      <p class="disclaimer">
+        Not financial advice. DYOR.
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
